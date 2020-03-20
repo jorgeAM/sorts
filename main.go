@@ -9,7 +9,7 @@ import (
 func main() {
 	arr := []int{90, -80, 70, -60, 50, -40, 30, -20, 10, 0}
 
-	arr = sortalgorithm.SelectionSort(arr)
+	arr = sortalgorithm.BubbleSort(arr)
 
 	fmt.Println(arr)
 }
